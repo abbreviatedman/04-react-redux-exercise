@@ -12,7 +12,7 @@
 
 5. Install dependencies by entering `npm install` in the terminal.
 
-6. Install React Redux and Redux by typing `npm i redux react-redux`.
+6. Install React Redux and Redux by typing `npm install redux react-redux`.
 
 7. Run the app by typing `npm run dev` in the terminal. This will provide a clickable link to open the app in your default browser.
 
