@@ -168,7 +168,7 @@ function rootReducer(state = initialState, action) {
   if (action.type === 'SET_USER_NAME') {
     return { ...state, userName: action.payload };
   } else if (action.type === 'NEXT_QUESTION') {
-    const nextQuestion = questions[Math.floor(Math.random() * questions.length)];
+    const nextQuestion = state.questions[Math.floor(Math.random() * state.questions.length)];
 
     return {
       ...state,
@@ -266,7 +266,7 @@ function rootReducer(state = initialState, action) {
   if (action.type === 'SET_USER_NAME') {
     return { ...state, userName: action.payload };
   } else if (action.type === 'NEXT_QUESTION') {
-    const nextQuestion = questions[Math.floor(Math.random() * questions.length)];
+    const nextQuestion = state.questions[Math.floor(Math.random() * state.questions.length)];
 
     return {
       ...state,
